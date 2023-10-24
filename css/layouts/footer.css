@@ -1,0 +1,28 @@
+footer {
+    margin: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.footer p {
+    color: var(--secondary-color);
+}
+.footer {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.fa-angle-up {
+    width: 30px;
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 30px;
+}

@@ -1,0 +1,24 @@
+.animation-bouton {
+    transition-duration: .3s;
+    transition-property: transform;
+}
+.bg {
+    color: var(--secondary-color);
+}
+.button-primary {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 24px;
+    width: auto;
+}
+.button-primary:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
